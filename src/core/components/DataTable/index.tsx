@@ -18,8 +18,7 @@ const DataTable = () => {
     axios
       .get(`${BASE_URL}`)
       .then(response => {
-        setCurrencyResponse(response.data);
-        console.log(response.data);
+        setCurrencyResponse(response.data);        
       });
   }, []);
 

@@ -14,16 +14,9 @@ const Footer = () => {
         </p>
         <p className="text-light">
           <small>
-            <strong>Semana Spring React</strong>
+            <strong>Disciplina Arquitetura JavaScript - React</strong>
             <br />
-            Evento promovido pela escola DevSuperior:{' '}
-            <a
-              href="https://instagram.com/devsuperior.ig"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @devsuperior.ig
-            </a>
+            Prof: Raphael Gomide
           </small>
         </p>
       </div>
