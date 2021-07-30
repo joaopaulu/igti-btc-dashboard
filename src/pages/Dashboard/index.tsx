@@ -1,9 +1,11 @@
 import DataTable from 'core/components/DataTable';
 
+
 const Dashboard = () => {
   return (
     <>
       <div className="container">
+      <DataTable />
         <h1 className="text-primary py-3">Dashboard de Vendas</h1>
         <div className="row px-3">
           <div className="col-sm-6">
@@ -18,7 +20,7 @@ const Dashboard = () => {
         <div className="py-3">
           <h2 className="text-primary">Todas Vendas</h2>
         </div>
-        <DataTable />
+        
       </div>
     </>
   );

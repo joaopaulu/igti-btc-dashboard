@@ -7,6 +7,12 @@ export type Currency = {
   symbol: string;
   image: string;
   price: number;
-  market_cap: number;  
+  market_cap: number;
+  volume_24h:number; 
+  percent_change_24h:number; 
+  percent_change_7d:number;
+  percent_change_30d:number;
+  max_supply:number;
+
 };
 
