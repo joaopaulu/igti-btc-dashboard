@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { TimeSeries } from 'core/types/cripto';
 import { BASE_URL } from 'core/utils/requests';
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
@@ -33,7 +32,7 @@ const BarChart = () => {
 
   useEffect(() => {
     axios.get(`${BASE_URL}`).then(response => {
-      const data = response.data as TimeSeries[];
+      //const data = response.data as TimeSeries[];
       //const date = {response.da}
 
       //const open = data.map(x => x.open);
